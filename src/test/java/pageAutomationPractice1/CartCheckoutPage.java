@@ -12,7 +12,6 @@ public class CartCheckoutPage extends BaseTestAutomationPractice1 {
     public CartCheckoutPage() {
         PageFactory.initElements(driver, this);
     }
-
     @FindBy(linkText = "Proceed to checkout")
     WebElement proceedButtonToSignInSection;
     @FindBy(id = "email")

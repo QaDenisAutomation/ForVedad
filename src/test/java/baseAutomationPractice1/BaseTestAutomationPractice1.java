@@ -24,7 +24,6 @@ public class BaseTestAutomationPractice1 {
         driver.manage().window().maximize();
         driver.get("http://automationpractice.com/index.php");
     }
-
     @After
     public void TearDown(){
         //driver.quit();

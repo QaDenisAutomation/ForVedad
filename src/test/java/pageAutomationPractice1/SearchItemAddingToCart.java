@@ -12,6 +12,7 @@ public class SearchItemAddingToCart extends BaseTestAutomationPractice1 {
 
     public SearchItemAddingToCart() { PageFactory.initElements(driver, this); }
 
+
     @FindBy(id = "search_query_top")
     WebElement searchField;
     @FindBy(className = "icon-th-list")
